@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Surename</th>
+            <th>Phone Number</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Mihail</td>
+            <td>Lazarev</td>
+            <td>21-3-436</td>
+            <td>1234@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Lev</td>
+            <td>Komyssarov</td>
+            <td>51-5-463</td>
+            <td>2455@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Kirril</td>
+            <td>Efremov</td>
+            <td>21-7-777</td>
+            <td>5889@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Hleb</td>
+            <td>Jdanov</td>
+            <td>50-3-456</td>
+            <td>0091@gmail.com</td>
+        </tr>
+</table>
+<form>
+    <p>Имя: <input type="text" name="firstname" placeholder="Введите ваше имя"></p>
+    <p>Фамилия: <input type="text" name="surename" placeholder="Введите вашу фамилию"></p>
+    <p><b>Укажите ваш пол:</b></p>
+        <p><input checked type="radio" name="answer" value="a1"><b>М</b></p>
+        <p><input type="radio" name="answer" value="a2"><b>Ж</b></p>
+    <p><textarea name="question" placeholder="Напишите свой вопрос" cols="30" rows="5"></textarea></p>
+    <div class="selectcity">
+        <select>
+            <option disabled selected>Выберите город</option>
+            <option value="Kiev">Киев</option>
+            <option value="Kharkiv">Харьков</option>
+            <option value="Lviv">Львов</option>
+        </select>
+    </div>
+    <p><b>Выбор языка:</b></p>
+            <input type="checkbox" value="b1"><b>Українська</b><br>
+            <input type="checkbox" value="b2"><b>Русский</b><br>
+            <input type="checkbox" value="b3"><b>English</b><br>
+    <p>
+        <input type="submit" value="Отправить">
+        <input type="reset" value="Очистить">
+    </p>
+</form>
+</body>
+</html>

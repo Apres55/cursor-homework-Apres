@@ -1,0 +1,27 @@
+table {
+    width: 30%;
+    background: white;
+    color: white; 
+    border-spacing: 2px;
+    }
+td, th {
+    background: rgb(65, 61, 61); /* Цвет фона ячеек */
+    padding: 1px; /* Поля вокруг текста */
+    }
+p {
+        margin-top: 1em; /* Отступ сверху */
+        margin-bottom: 1em; /* Отступ снизу */
+    }
+    select {
+        margin: 1px;
+        width: 130px;
+        padding: 0px 0px 0px 5px;
+        font-size: 13px;
+        border: 1px solid black;
+        border-radius: 5px;
+        height: 19px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background: url(https://e.unicode-table.com/orig/3f/064d9f52c3e482f4dc5e5b4aa837c3.png) 100% / 14% no-repeat rgb(255, 255, 255);
+    }
