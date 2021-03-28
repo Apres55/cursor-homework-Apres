@@ -115,3 +115,8 @@ img {
     position: relative;
     left: 1px;
 }
+
+.arch {
+    position: relative;
+    top: 12%;
+}
