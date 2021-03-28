@@ -1,0 +1,117 @@
+body {
+    background-color: #242530;
+    margin: 2em;
+    font-size: x-small;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table {
+    border: 1px solid grey;
+    border-radius: 5px;
+    border-spacing: 0px;
+    color: antiquewhite;
+    margin-bottom: 3em;
+    margin-left: 3em;
+    width: 40%;
+    background: linear-gradient(45deg, #474340, #283236);
+}
+td {
+    border-top: 1px solid gray;
+    padding: 1% 2.5% 1% 2.5%;
+    height: 25px;
+}
+th {
+    padding: 1% 0% 1% 2.5%;
+    height: 25px;
+}
+
+.col1, .col2, .col3 {
+    width: 33%;
+    text-align: left;
+}
+
+.col2 {
+    padding-left: 15%;
+}
+
+.col3 {
+    text-align: right;
+    padding-right: 3%;
+}
+
+.search-place {
+    width: 80%;
+    border: 0px solid transparent;
+    height: 20px;
+    background-color:rgba(119, 119, 51, 0);
+    position: relative;
+    left: 6%;
+    top: 8%;
+}
+
+input:focus {
+    outline: none;
+}
+
+#icon {
+    position: absolute;
+    margin: 6px;
+    left: 0%;
+}
+
+img {
+    width: 12px;
+}
+
+.chb {
+    margin-right: 7px;
+    margin-left: 0px;
+}
+
+.search {
+    background-color: #7733;
+    width: 80%;
+    height: 25px;
+    border-radius: 4px;
+    position: relative;
+    left: 18%;
+}
+
+.default {
+    color: rgba(105, 103, 103, 0.822);
+}
+
+.arch {
+    width: 16px;
+    margin-right: 7px;
+    margin-left: 0px;
+}
+
+.block {
+        width: 0; 
+        height: 0; 
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 5px solid antiquewhite;
+        display: inline; 
+        margin-left: 6px;
+        position: relative;
+        top: 34%;
+        text-align: right;
+        border-radius: 2px;
+}
+
+.dots {
+    width: 18px;
+}
+
+.grayd {
+    height: 4px;
+    width: 4px;
+    background-color: rgba(105, 103, 103, 0.822);
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0px;
+    position: relative;
+    left: 1px;
+}
