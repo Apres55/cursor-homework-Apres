@@ -1,0 +1,29 @@
+body {
+    width: 100%;
+    height: auto;
+    padding: 0%;
+    margin: 0%;
+}
+
+header {
+    width: 1440px;
+    height: 500px;
+    left: 0px;
+    top: 0px;
+    background-color: aqua;
+
+}
+.contact {
+    width: 1440px;
+    height: 500px;
+    left: 0px;
+    top: 0px;
+    background-color: brown;
+}
+footer {
+    width: 1440px;
+    height: 500px;
+    left: 0px;
+    top: 0px;
+    background-color: rgb(9, 11, 15);
+}
