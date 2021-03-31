@@ -1,29 +1,145 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
 body {
-    width: 100%;
-    height: auto;
     padding: 0%;
     margin: 0%;
+    background: white;
 }
 
 header {
-    width: 1440px;
-    height: 500px;
-    left: 0px;
-    top: 0px;
-    background-color: aqua;
+    width: 100%;
+    height: auto;
+    background-color: #ED4C5C;
+    background-position: 0;
+}
 
+.container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: auto;
 }
-.contact {
-    width: 1440px;
-    height: 500px;
+
+.h1 {
+    font-style: normal;
+    line-height: 43px;
+    box-sizing: border-box;
+}
+
+.text {
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+    font-weight: 400; 
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.cont-text {
+    color: #FFFFFF;
+    width: 50%;
+    padding: 122px 81px 271px 165px;
+    text-align: justify;
+}
+
+.picture {
+    width: 50%;
+}
+
+.man_rest {
+    width: 533px;
+    height: 311px;
+    left: 691px;
+    top: 94px;
+    position: absolute;
+}
+
+.icons {
+    display: inline-block;
+    position: absolute;
+    width: 134px;
+    height: 32px;
+    left: 163px;
+    top: 357px;
+}
+
+.icon1, .icon2, .icon3 {
+    display: block;
+    position: absolute;
+}
+
+.icon1 {
+    width: 32px;
+    height: 32px;
     left: 0px;
     top: 0px;
-    background-color: brown;
 }
+
+.icon2 {
+    width: 32px;
+    height: 32px;
+    left: 55px;
+    top: 0px;
+}
+
+.icon3 {
+    width: 24px;
+    height: 24px;
+    left: 110px;
+    top: 4px;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    background-color: #FFFFFF;
+    background-position: 0;
+    position: relative;
+}
+
+.main-cont-text {
+    color: #000000;
+    width: 50%;
+    padding: 122px 81px 271px 165px;
+    text-align: justify;
+}
+
+
 footer {
-    width: 1440px;
-    height: 500px;
-    left: 0px;
-    top: 0px;
-    background-color: rgb(9, 11, 15);
+    width: 100%;
+    height: auto;
+    background-color: #FAFAFA;
+    background-position: 0;
+    position: relative;
+}
+
+.footer-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.col {
+    width: 21%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+a:-webkit-any(link) {
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+li {
+    list-style-type: none;
+}
+ul {
+    margin-left: 0; 
+    padding-left: 0;
 }
