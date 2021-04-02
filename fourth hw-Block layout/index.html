@@ -15,12 +15,12 @@
             <div class="cont-text">
                 <div class="h1">
                     <h1>
-                    Stay focused on saving <br>money
+                    Stay focused on saving money
                     </h1>
                 </div>
                 <div class="text">
-                    <p>
-                        It is important to stay focused on saving money in any way you can. We <br>help you monitor your spending habits so you can easily spot and cut <br> unnecessary expenses. Simply join today to get started!
+                    <p class="header-text">
+                        It is important to stay focused on saving money in any way you can. We help you monitor your spending habits so you can easily spot and cut unnecessary expenses. Simply join today to get started!
                     </p>
                 </div>
             </div>
@@ -42,39 +42,68 @@
     </header>
 
     <main>
-        <div class="main-container">
+        <div class="main-container flex">
             <div class="main-cont-text">
                 <div class="main_h1">
                     <h1>
                         Contact
                     </h1>
                 </div>
-                <div class="main_txt">
+                <div class="main_txt flex-column">
                     <p>
-                        Questions or concerns? Just fill out the form below and our support <br>team will get back to you within 24 hours
+                        Questions or concerns? Just fill out the form below and our support team will get back to you within 24 hours
                     </p>
                 </div>
             </div>
-            <div class="contact-form">
+            <div class="contact-form flex-column">
+                <form>
+                    <div class="flex content">
+                        <input type="text" name="firstname" placeholder="First Name">
+                        <input type="text" name="surename" placeholder="Last Name">
+                    </div>
+                    <!-- sevices -->
+                    <div>
+                        <input class="phone-number" type="text" name="Number" placeholder="Phone Number">
+                    </div>
+                    <div class="select-service">
+                        <select name="service" id="service">
+                            <option disabled selected>Select Service</option>
+                            <option value="first-option">Rabbit</option>
+                            <option value="second-option">Krakade</option>
+                            <option value="third option">Bank</option>
+                        </select>
+                    </div>
+                    <div>
+                        <button type="submit">SUBMIT NOW</button>
+                    </div>
+                </form>
             </div>
         </div>
     </main>
+
     <footer>
         <div class="footer-container">
             <div class="col column1">
-                <h3>Address</h3>
-                <ul>
-                    <li>
-                    <a href="" target="blank">
-                        Pipang Ltd, Griva Digeni,<br>
-                        81-83 Jacovides Tower, 1st Floor<br>
-                        1090 Picosia USA 
-                    </a>
-                    </li>
-                </ul>
+                <div class="head-footer-columns">
+                    <h3>Address</h3>
+                </div>
+                <div>
+                    <p class="fotter-text-1column">
+                        <a href="" target="blank">
+                            Pipang Ltd, Griva Digeni,
+                            81-83 Jacovides Tower, 1st Floor
+                            1090 Picosia USA 
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="copywrite">
+                Copyright 2018 CloudBudget
             </div>
             <div class="col column2">
-                <h3>Services</h3>
+                <div class="head-footer-columns">
+                    <h3>Services</h3>
+                </div>
                 <ul>
                     <li><a href="" target="blank">Overwiew</a></li>
                     <li><a href="" target="blank">Features</a></li>
@@ -84,11 +113,13 @@
                 </ul>
             </div>
             <div class="col column3">
-                <h3>Get in Touch</h3>
-                <ul>
-                    <li>info@cloudbudget.com</li>
-                    <li>+1 844-721-7120</li>
-                </ul>
+                <div class="head-footer-columns">
+                    <h3>Get in Touch</h3>
+                </div>
+                <div class="footer-3col-text">
+                    <p>info@cloudbudget.com</p>
+                    <p>+1 844-721-7120</p>
+                </div>
                 <div class="footer-icons">
                     <a href="" target="blank">
                         <img src="pict\footer_svg\facebook.svg" alt="facebook-logo" class="fb">
@@ -102,8 +133,8 @@
                 </div>
             </div>
             <div class="col column4">
-                <h3>We Support</h3>
-                <img src="pict\footer_svg\paysistems.png" alt="actual_pay-sistems" class="tw">
+                    <h3>We Support</h3>
+                <img src="pict\footer_svg\paysistems.png" alt="actual_pay-sistems" class="pay">
             </div>
         </div>
     </footer>
