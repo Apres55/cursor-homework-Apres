@@ -25,7 +25,7 @@ header {
 }
 
 .h1 {
-        line-height: 43px;
+    line-height: 43px;
     box-sizing: border-box;
     text-align: justify;
     font-weight: 700;
@@ -112,7 +112,7 @@ main {
 
 .main-cont-text {
     color: #000000;
-    width: 50%;
+    width: 100%;
     padding: 120px 81px 271px 165px;
     text-align: justify;
 }
@@ -141,11 +141,10 @@ main {
 }
 
 .contact-form {
-    width: 50%;
+    width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     margin-right: 165px;
     margin-bottom: 30px;
 }
