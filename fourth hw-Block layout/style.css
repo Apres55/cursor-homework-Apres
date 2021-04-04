@@ -20,7 +20,7 @@ header {
 .container {
     display: inline-block;
     position: relative;
-    width: 1640px;
+    width: 100%;
     height: 500px;
     background-color: #ED4C5C;
 }
@@ -230,7 +230,7 @@ footer {
 .footer-container {
     display: inline-block;
     position: static;
-    width: 1640px;
+    width: 100%;
     height: 435px;
     background-color: #FAFAFA;
 }
