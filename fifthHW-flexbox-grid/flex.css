@@ -1,0 +1,50 @@
+
+.flex-cont {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.navbar {
+    display: inherit;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-basis: 160px;
+}
+
+.top {
+    display: inherit;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flex-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.head-down-image>img {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.head-down-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.down-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    border-radius: 50px;
+}
