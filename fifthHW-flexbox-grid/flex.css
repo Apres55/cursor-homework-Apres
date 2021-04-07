@@ -13,7 +13,6 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    flex-basis: 160px;
 }
 
 .top {
@@ -47,4 +46,122 @@
     justify-items: center;
     align-items: center;
     border-radius: 50px;
+}
+
+.main-cont {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 580px;
+    align-items: center;
+}
+
+.titlebox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-cont {
+    display: grid;
+    margin-top: 100px;
+    justify-content: space-between;
+    grid-template-columns: 540px 540px;
+    grid-template-rows: 340px 340px;
+    row-gap: 50px; 
+}
+
+.mainboxes {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.main-cont-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 220px;
+    height: 275px;
+}
+
+.purple-box-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.purple-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.john-box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+.john-sliderbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* footer */
+
+.footer-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-twins {
+    width: 410px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-navigation {
+    margin-top: 150px;
+    display: grid;
+    font-size: 16px;
+    color: #212353;
+    grid-template-rows: 50px 200px;
+    grid-template-columns: 335px 166px 166px 178px;
+    row-gap: 30px;
+    justify-content: space-between;
+}
+
+.footre-logo {
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-columns {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.ending-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
