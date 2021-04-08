@@ -511,3 +511,13 @@ h1 {
     background-color: rgb(92, 46, 80);
     width: 65px;
 }
+
+button:active,
+button::after,
+button::before,
+button:focus {
+    outline: none;
+    direction: none;
+    text-decoration-line: none;
+    box-shadow: none;
+}
