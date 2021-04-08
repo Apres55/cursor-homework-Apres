@@ -131,6 +131,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-right: 130px;
 }
 
 .footer-navigation {
@@ -156,11 +157,15 @@
 }
 
 .nav-row {
+    width: 178px;
+    height: 50px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .ending-bar {
+    width: 90%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

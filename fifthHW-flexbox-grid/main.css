@@ -13,6 +13,7 @@ body, html {
     vertical-align: baseline;
     max-width: 1600px;
     max-height: auto;
+    margin-left: 6%;
 }
 
 @font-face{
@@ -355,10 +356,30 @@ h1 {
     background: #9C69E2;
     opacity: 0.2;
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 
 /* footer */
+
+.footer-block {
+    font-family: 'Avenir', sans-serif;
+    font-style: normal;
+}
+
+.footer-text>h2 {
+    font-family: 'Helvetica';
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    color: #212353;
+}
+
+.footer-text>p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+}
 
 .pink-btn {
     background: #F063B8;
@@ -396,4 +417,87 @@ h1 {
     transition: 0.2s ease-in-out;
     display: flex;
     align-items: center;
+}
+
+.footer-navigation {
+    color: #212353;
+    width: 90%;
+}
+
+.nav-titles {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.footre-logo {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 160%;
+}
+
+.nav-columns>a {
+    font-family: 'Avenir';
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 250%;
+}
+
+.nav-columns>p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+}
+
+.adress {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+}
+
+.ending-bar {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    margin-bottom: 91px;
+}
+
+.pink-btn:hover {
+    background: #b582fc;
+    box-shadow: 0 5px 5px rgb(119, 119, 119);
+    color:rgb(255, 203, 244);
+}
+
+.white-btn:hover {
+    background: #e1ccff;
+    box-shadow: 0 5px 5px rgb(119, 119, 119);
+    color:rgb(44, 31, 41);
+}
+
+.nav-col:hover {
+    font-size: 20px;
+}
+
+.fb, .ig, .tw, .support {
+    border-radius: 50%;
+}
+
+.fb:hover {
+    background-color: rgb(51, 53, 167);
+}
+
+.ig:hover {
+    background-color: rgb(201, 105, 201);
+}
+
+.tw:hover {
+    background-color: rgb(105, 106, 170);
+}
+
+.support:hover {
+    background-color: rgb(92, 46, 80);
+    width: 65px;
 }
