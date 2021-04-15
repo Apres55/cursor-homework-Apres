@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: 'Baloo Bhai', 'Roboto', sans-serif, 'cursive';
-    font-size: 1.1111111111111112vw; /*16px*/
+    font-size: 1.141vw; /*16px*/
     font-style: normal;
     font-weight: normal;
     margin: 0;
@@ -13,12 +13,12 @@ body {
     height: 100vh;
     min-width: 76.38vw;
     min-height: 66.6vh;
-    padding-left: 2.2458333333333336vw;
-    padding-top: 2.668vh;
+    padding-left: 2.458333333333336vw;
+    padding-top: 2.755vh;
     display: grid;
-    background: rgb(224, 207, 219);
-    grid-template-columns: repeat(1, 9.16% 43.05555555555556% 30.555555555555557%);
-    gap: 4.426388888888889vw; /*63.74px */
+    background:#FFFFFF;
+    grid-template-columns: repeat(1, 10.4% 46.055556% 31.555556%);
+    gap: 4.226388888888889vw;
 }
 
 section {
@@ -36,8 +36,19 @@ section {
 }
 
 h1 {
-    font-size: 2.5vw;
-    line-height: 6.3vh;
+    font-size: 2.56vw;
+    line-height: 5.5vh;
+}
+
+h2 {
+    font-size: 1.72vw;
+    line-height: 0;
+    margin-top: 4.3vh;
+}
+
+.h3 {
+    font-size: 1.15vw;
+    line-height: 3.2vh;
 }
 
 .robotof13 {
@@ -61,21 +72,31 @@ span {
     justify-content: space-around;
     align-items: center;
     min-width: 3vw;
+    padding-left: 1.4vw;
 }
 
 .main-text-boxes {
-    width: 11vw;
+    width: 10.9vw;
+    margin: 0.3vw;
 }
 
 .time-course {
-    width: 6.2vw;;
+    width: 6.7vw;
+    padding-left: 1vw;
 }
 
 /* buttonsbuttonsbuttons */
+.continue {
+    margin-right: 0.818vw;
+    margin-bottom: -0.7vh;
+    margin-left: 2vw;
+    margin-top: 0.4vh;
+}
 
 .barbutton {
     border: none;
     background: none;
+    cursor: pointer;
 }
 
 .view-course {
@@ -91,6 +112,8 @@ span {
     font-size: 13px;
     line-height: 15px;
     color: #FFFFFF;
+    margin-right: 1vw;
+    margin-bottom: -0.26vh;
 }
 
 button:hover,
@@ -114,14 +137,22 @@ button:visited,
     border-radius: 1vh;
     cursor: pointer;
     background: #F5F5F7;
-    width: 8.333333333333332vw;
-    height: 4.444444444444445vh;
+    width: 6vw;
+    height: 3.944444vh;
     border: none;
     font-style: normal;
     font-weight: bold;
     font-size: 13px;
     line-height: 15px;
-    padding-left: 2vw;
+    padding-left: 0.9vw;
+}
+
+.right-bar-click {
+    cursor: pointer;
+}
+
+.rbc-hover:hover {
+    width: 25%;
 }
 
 /* buttonsbuttonsbuttons */
@@ -141,14 +172,15 @@ button:visited,
 .navheadP {
     font-family: 'Baloo Bhai';
     font-size: 4.444444444444445vw;
-    margin: 0;
+    margin: -1.1vh;
+    cursor: pointer;
 }
 
 .navimgbar {
     display: flex;
     flex-direction: column;
-    width: 18.18%;
-    height: 75.58685446vh;
+    width: 21.18%;
+    height: 75.586854vh;
     justify-content: space-around;
     margin: 0;
 }
@@ -158,7 +190,14 @@ button:visited,
 }
 
 .navfootimg {
-    margin-top: 26.3556338028169vh;
+    margin-top: 21.42634vh;
+    margin-bottom: 2.1vh;
+}
+
+.navimg {
+    margin-top: auto;
+    margin-bottom: auto;
+    cursor: pointer;
 }
 
 /* Center Center Center Center */
@@ -166,23 +205,23 @@ button:visited,
 .maindiv {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 2.599vh;
 }
 
 .main-header {
-    width: 43.05555555555556vw;
+    width: 44.1vw;
     height: 21.25vh;
     display: flex;
     align-items: flex-end;
-    margin-left: 0.572vh;
+    margin-left: 0.162vh;
 }
 
 .main-head-block {
     display: inherit;
-    width: 43.05555555555556vw;
+    width: 44.1vw;
     height: 17.77777777777778vh;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: start;
     align-items: flex-end;
     background: #000000;
     border-radius: 1vh;
@@ -193,12 +232,12 @@ button:visited,
 .text-column {
     display: flex;
     flex-direction: column;
-    margin-bottom: 4.456vh;
+    margin: 4.46vh 9.1vw 3.139vw 3.356vh;
 }
 
 .man {
-    width: 12.1527vw;
-    height: 21.2vh;
+    width: 12.4527vw;
+    height: 21.4vh;
 }
 
 .spainbox {
@@ -212,7 +251,7 @@ button:visited,
 
 .main-section-spain {
     display: inherit;
-    width: 34.74027777777778vw;
+    width: 35.6vw;
     height: 8.3vh;
     flex-direction: row;
     justify-content: space-around;
@@ -222,6 +261,8 @@ button:visited,
 }
 
 .ellipse {
+    margin-top: 0.8vh;
+    margin-right: -0.4vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -239,10 +280,31 @@ button:visited,
     line-height: 0.9vh;
 }
 
+.arrows-r-l {
+    width: 6.77361vw;
+    height: 4.4vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2vh;
+    position: absolute;
+    right: 39vw;
+}
+
+.grey-link {
+    color: #acacacb7;;
+}
+
+.grey-link:hover,
+.grey-link::after,
+.grey-link:active {
+    color:#000000;
+}
+
 .mini-box {
     display: flex;
-    width: 4.4vw;
-    height: 7.1vh;
+    width: 4.7vw;
+    height: 6.9vh;
     justify-content: center;
     align-items: center;
     border-radius: 1vh;
@@ -253,13 +315,16 @@ button:visited,
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 30vw;
+    width: 30.78vw;
+    height: 0;
+    margin-top: 1.2vh;
+    margin-bottom: 1.8926vh;
 }
 
 .main-section {
     display: inherit;
-    width: 43.05vw;
-    height: 8.3vh;
+    width: 44.2vw;
+    height: 8.27vh;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -267,13 +332,18 @@ button:visited,
     background: #F5F5F7;
 }
 
+.fire-numb {
+    margin-top: 0.5vh;
+    margin-left: 0.5vw;
+}
+
 /* rightside rightside rightside rightside */
 
 .right-block {
     display: flex;
     flex-direction: column;
-    gap: 30px;
-    margin-top: 3vh;
+    gap: 3vh;
+    margin-top: 3.5vh;
 }
 
 .header-bar {
@@ -291,16 +361,27 @@ button:visited,
     background-image: url(image/right-side/loop.svg);
     background-repeat: no-repeat;
     background-position: center left;
-    background-position-x: 0.5vw;
+    background-position-x: 0.9vw;
     border: none;
     text-align: center;
 }
 
 .r-header-icons {
+    width: 7.07vw;
+    height: 4.1vh;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding-bottom: 1.4vh;
+}
+
+#profilephoto {
+    margin: 1vh 0 0 1.1vw;
+}
+
+#arrow {
+    margin: 1.3vh 0 0 0.6vw;
 }
 
 .bignumbs {
@@ -308,23 +389,47 @@ button:visited,
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    height: 10.6vh;
+}
+
+.numb {
+    font-size: 4.444444444444445vw;
+    font-family: inherit;
+    margin-right: 1vw;
+    padding-left: 0;
 }
 
 .big-numbers {
     display: inherit;
-    width: 13.444444444444446vw;
+    width: 14.444444444444446vw;
     height: 10.703vh;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     border-radius: 1vh;
     background: #F5F5F7;
     font-size: 4.444444444444445vw;
 }
 
-.bignumb-txt {
-    display: inherit;
-    width: 5.3vw;
+.numbtxt {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 0;
+}
+
+.txtspace {
+    line-height: 2.5vh;
+}
+
+.no-margin {
+    margin-top: 3vh;
+}
+
+.statistic {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.1vh;
 }
 
 .graph-bar {
@@ -332,13 +437,20 @@ button:visited,
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-top: 0.5vh;
 }
 
 .graph-bar-h3 {
-    width: 220px;
+    width: 15.577777777777779vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.graphstat {
+    margin-top: 1vh;
+    width: 33.66vw;
+    height: 31.272vh;
 }
 
 .right-footer {
@@ -353,14 +465,30 @@ button:visited,
     background: #F5F5F7;
     background-image: url(image/right-side/book.svg);
     background-repeat: no-repeat;
-    background-position: center right;
+    background-position-x: 88%;
+    background-position-y: 54%;
     gap: 1vh;
+    margin-top: 1.7vh;
+
 }
 
 .right-footer-txt {
-    width: 179px;
+    width: 12.4305vw;
+    height: 5.3vh;
     display: grid;
     grid-template-rows: repeat(1, 1fr 1fr 1fr);
-    row-gap: 10px;
+    row-gap: 2.1vh;
+    align-content: center;
+    margin-left: 1.435138vw;
 }
 
+.learn-right {
+    line-height: 2.3vw;
+    margin-top: 0.9vh;
+    width: 13vw;
+    margin-bottom: -0.9vh;
+}
+
+.go-premium {
+    margin-top: 1.6vh;
+}
