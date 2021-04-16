@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100vw;
+    background-color: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
+}
+
+p {
+    margin: 0;
+}
+
+a { 
+    text-decoration: none;
+}
+
+.gplay-logo {
+    width: 1.76vw;
+}
+
+.text-column {
+    width: 37.9vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    letter-spacing: 0.03em;
+}
+
+/* headheafheahfheah */
+
+.firstcont {
+    padding: 6.5vh 0 0 11.32vw;
+    display: grid;
+    grid-template-columns: no-repeat(1, 1fr);
+    row-gap: 20vh;
+    align-items: center;
+    background: #F4F6F9;
+    background-image: url(images/header/Frame.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.headbtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 10.83vw;
+    background: #131313;
+    border-radius: 1vh;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.head-btns {
+    display: flex;
+    flex-direction: row;
+    width: 23vw;
+    justify-content: space-between;
+    margin: 7.5vh 0 24.6vh 0;
+}
+
