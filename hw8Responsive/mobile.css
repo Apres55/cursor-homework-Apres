@@ -3,3 +3,82 @@
     box-sizing: border-box;
 }
 
+@media screen and (max-width: 750px) {
+    .bluelogo {
+        size: 100vh;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .firstcont {
+        background-image: none;
+    }
+
+    .container-fluid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-size: 100%;
+    }
+    .text-column {
+        width: 80%;
+        text-align: center;
+    }
+
+
+    .blue-cont {
+        background: #283e5f;
+
+    }
+
+    .blue-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mini-boxes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .headbtn {
+        width: 48%;
+    }
+
+    .head-btns {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .gplay-logo {
+        width: 15%;
+    }
+
+    .mini-boxes>img {
+        min-width: 10vw;
+        max-width: 15vw;
+    }
+
+    .tvlogos {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 1vh;
+    }
+
+    .footertext {
+        margin: 0;
+        padding: 0;
+    }
+}
+

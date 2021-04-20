@@ -1,0 +1,221 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 2vh;
+}
+
+body, html {
+    background-color: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
+}
+
+p {
+    margin: 0;
+}
+
+a { 
+    text-decoration: none;
+}
+
+.gplay-logo {
+    width: 1.76vw;
+}
+
+.text-column {
+    width: 37.9vw;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    letter-spacing: 0.03em;
+    margin-top: 18vh;
+}
+
+/* headheafheahfheah */
+
+.firstcont {
+    display: flex;
+    flex-direction: column;
+    padding: 4.5vh 0 0 11.32vw;
+    background: #F4F6F9;
+    background-image: url(images/header/Frame.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+
+}
+
+.headbtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 10.83vw;
+    height: 6vh;
+    background: #131313;
+    border-radius: 1vh;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.head-btns {
+    display: flex;
+    flex-direction: row;
+    width: 23vw;
+    justify-content: space-between;
+    margin: 4.5vh 0 20.6vh 0;
+}
+
+/*secondsecondsecondsecondsecond*/
+
+.secondcont {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20vh;
+    align-items: center;
+    background: #FFFFFF;
+    background-image: url(images/header/Rectangle.jpg);
+    background-repeat: no-repeat;
+}
+
+.right-leftbox {
+    margin: 10vh 0;
+    display: grid;
+    grid-template-rows: auto;
+    grid-row-gap: 5vh;
+    align-content: center;
+}
+
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: 
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 0;
+        margin: 0;
+        
+    }
+
+    .card {
+        margin-top: 5vh;
+        z-index: 2;
+    }
+
+    .arsenal-chelsea {
+        margin-left: auto;
+    }
+
+        .contentcard {
+            display: flex;
+            flex-direction: row;
+        }
+
+    .card-footer {
+        margin-top: auto;
+        display: flex;
+        position: block;
+        justify-content: space-between;
+    }
+
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 2vw;
+  height: 1.5vh;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+    display: flex;
+    align-items: center;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 2.5vh;
+  width: 2.5vh;
+  right: 0.7vw;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 0.5vh #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(1vw);
+  -ms-transform: translateX(1vw);
+  transform: translateX(1vw);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 3vh;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.video {
+    z-index: 1;
+    position: absolute;
+    top: 99%;
+}
+
+
+       /* mobile container*/ /* mobile container*/ /* mobile container*/
+
+.thirdcont {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20vh;
+    align-items: center;
+    background: #FFFFFF;
+    background-image: url(images/content/ellipses.png);
+    background-repeat: no-repeat;
+}
+
+        /*    bluebox   *//*    bluebox   *//*    bluebox   */
+
+.blue-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    background-image: url(images/content/blue.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.blue-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10vh;
+}
