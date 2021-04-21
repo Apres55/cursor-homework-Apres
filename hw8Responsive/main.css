@@ -14,11 +14,24 @@ body, html {
 
 p {
     margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
 }
 
 a { 
     text-decoration: none;
-    color: rgb(255, 255, 255) !important;
+    color: rgb(255, 255, 255);
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+h1, h2, h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.bluelink {
+    color:#00ADEE;
 }
 
 .gplay-logo {
@@ -77,6 +90,11 @@ a {
     text-align: start;
     position: block;
     padding: 1vh;
+}
+
+.card {
+    width: 22rem; 
+    height: 12rem;
 }
 
 .headbtn:hover {
@@ -168,6 +186,7 @@ a {
         justify-content: space-between;
         align-items: center;
         z-index: 2;
+        width: 22rem;
     }
 
     .cardcontenttxt {
@@ -267,17 +286,32 @@ input:checked + .slider:before {
     background: #FFFFFF;
     background-image: url(images/content/ellipses.png);
     background-repeat: no-repeat;
-    background-position-x: right;
-    background-size: 80%;
+    background-position-x: 3rem;
+    background-size: 100%;
+    background-position-y: center;
+}
+
+.mobile-salah {
+    width: 40%;
+    height: 60%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
 }
 
 .salah {
-    z-index: 2;
+    z-index: 1;
 }
 
 .salahitems {
     position: relative;
     z-index: 2;
+    display: inline-block;
+}
+
+.ellipse {
+    top: 20vh;
+    right: 3.5vw;
 }
 
 .bell {
@@ -445,7 +479,7 @@ input:checked + .slider:before {
     background: #00ADEE;
     display: flex;
     justify-content: space-around;
-    padding: 10vh 0 10vh 0;
+    height: 20vh;
     align-items: center;
 }
 

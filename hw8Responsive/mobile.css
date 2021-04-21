@@ -30,10 +30,66 @@
         text-align: center;
     }
 
+    .thirdcont {
+        background-position: bottom;
+        background-size: 100em;
+        background-position-x: -57rem;
+        background-position-y: 55rem;
+    }
+
+    .mobile-salah {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .salah {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bell {
+        left: 22vw;
+        bottom: 28vh;
+    }
+    
+    .screen {
+        display: none;
+    }
+
+    .mobile-item {
+        right: 12vw;
+        top: 20vh;
+    }
+
+    .ellipse {
+        display: none;
+    }
+    
+
+    .cardcontenttxt {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1vh;
+        width: 20vw;
+
+    }
 
     .blue-cont {
-        background: #283e5f;
+        background: #FAFAFA;
 
+    }
+
+    .card {
+        width: 20rem; 
+        height: 15rem;
+    }
+
+    .cardcontenttxt>p {
+        width: 10vw;
     }
 
     .blue-content {
@@ -41,6 +97,14 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .blue-cont {
+        color:#4F4F4F;
+    }
+
+    li {
+        list-style-type: none;
     }
 
     .mini-boxes {
@@ -68,6 +132,27 @@
         max-width: 15vw;
     }
 
+    .testimonial, .leftarrow {
+        display: none;
+    }
+
+    .Darren {
+        display: flex;
+        align-items: center;
+        width: 70%;
+        text-align: start;
+        gap: 2vh;
+    }
+
+    .scrollarrows {
+        justify-content: flex-end;
+        width: 85%;
+    }
+
+    .card-footer {
+        width: 18rem;
+    }
+
     .tvlogos {
         display: flex;
         flex-direction: column;
@@ -76,9 +161,81 @@
         gap: 1vh;
     }
 
+    .lastcont {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: none;
+        align-items: none;
+        text-align: none;
+        background-size: 100%;
+        height: 30vh;
+        gap: 5vh;
+    }
+
+    .footlogos {
+        display: flex;
+        gap: 2vw;
+    }
+
+    .navigator {
+        display: flex;
+        gap: 5vw;
+    }
+
     .footertext {
         margin: 0;
         padding: 0;
     }
 }
 
+@media screen and (min-width: 750px) {
+    .mobile-item {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .salahitems {
+        display: none;
+    }
+    .cardcontenttxt>p {
+        width: 50vw;
+    }
+    
+    .card {
+        width: 18rem; 
+        height: 13rem;
+    }
+
+    .mb-3, .my-3 {
+        margin-bottom: -2rem!important;
+        margin-left: -1rem;
+    }
+
+    
+    .ball-logo {
+        position: relative;
+        right: 20vw;
+        bottom: 8vh;
+    }
+
+    .footlogos {
+        position: relative;
+        right: 62vw;
+        bottom: 2vh;
+        display: flex;
+        gap: 2vw;
+    }
+
+    .navigator {
+        position: relative;
+        top: 8vh;
+        display: flex;
+        gap: 5vw;
+        right: 6vw;
+    }
+
+}
