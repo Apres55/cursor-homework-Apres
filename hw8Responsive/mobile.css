@@ -123,6 +123,10 @@
         justify-content: space-between;
     }
 
+    .btn-txt>p {
+        font-size: 1.3vh; 
+    }
+
     .gplay-logo {
         width: 15%;
     }
@@ -130,6 +134,10 @@
     .mini-boxes>img {
         min-width: 10vw;
         max-width: 15vw;
+    }
+
+    .bluelogo path {
+        fill: #00ADEE;
     }
 
     .testimonial, .leftarrow {
@@ -161,6 +169,15 @@
         gap: 1vh;
     }
 
+    .seventhcont {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .footpic {
+        width: 100%;
+    }
+
     .lastcont {
         padding: 0;
         margin: 0;
@@ -188,7 +205,7 @@
         margin: 0;
         padding: 0;
     }
-}
+
 
 @media screen and (min-width: 750px) {
     .mobile-item {
@@ -215,27 +232,24 @@
         margin-left: -1rem;
     }
 
+    .lastcont {
+        flex-direction: column;
+        align-items: center;
+        gap: 2vh;
+    }
     
     .ball-logo {
-        position: relative;
-        right: 20vw;
-        bottom: 8vh;
+        justify-content: flex-start;
+        width: 93vw;
     }
 
     .footlogos {
-        position: relative;
-        right: 62vw;
-        bottom: 2vh;
-        display: flex;
-        gap: 2vw;
+        justify-content: flex-start;
+        width: 93vw;
     }
 
     .navigator {
-        position: relative;
-        top: 8vh;
         display: flex;
-        gap: 5vw;
-        right: 6vw;
+        order: 3;
+        padding-top: 5vh;
     }
-
-}
