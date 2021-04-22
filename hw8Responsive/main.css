@@ -80,8 +80,8 @@ h1, h2, h3 {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 10.83vw;
-    height: 6.5vh;
+    width: 46%;
+    height: 7.5vh;
     background: #131313;
     border-radius: 1vh;
     border: none;
@@ -90,24 +90,28 @@ h1, h2, h3 {
     text-align: start;
     position: block;
     padding: 1vh;
-}
-
-.card {
-    width: 22rem; 
-    height: 12rem;
+    min-width: 10vw;
 }
 
 .headbtn:hover {
-    width: 11.5vw;
-    height: 7vh;
+    width: 47%;
+    height: 7.6vh;
 }
 
 .head-btns {
     display: flex;
     flex-direction: row;
-    width: 23vw;
+    width: 85%;
     justify-content: space-between;
     margin: 4.5vh 0 20.6vh 0;
+}
+
+.btn-txt>p {
+    font-size: 80%; 
+}
+
+.btn-txt>p>b {
+    font-size: 90%;
 }
 
 /*secondsecondsecondsecondsecond*/
@@ -148,6 +152,8 @@ h1, h2, h3 {
     }
 
     .card {
+        width: 22rem; 
+        height: 14rem;
         margin-top: 2vh;
         z-index: 2;
     }
@@ -194,7 +200,6 @@ h1, h2, h3 {
         flex-direction: column;
         justify-content: center;
         gap: 1vh;
-        width: 8vw;
     }
 
     .cardcontenttxt>p {

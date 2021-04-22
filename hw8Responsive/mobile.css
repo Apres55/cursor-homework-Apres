@@ -33,8 +33,8 @@
     .thirdcont {
         background-position: bottom;
         background-size: 100em;
-        background-position-x: -57rem;
-        background-position-y: 55rem;
+        background-position-x: -50rem;
+        background-position-y: 50rem;
     }
 
     .mobile-salah {
@@ -84,7 +84,7 @@
     }
 
     .card {
-        width: 20rem; 
+        max-width: 22rem; 
         height: 15rem;
     }
 
@@ -114,18 +114,7 @@
         align-items: center;
     }
 
-    .headbtn {
-        width: 48%;
-    }
-
-    .head-btns {
-        width: 100%;
-        justify-content: space-between;
-    }
-
-    .btn-txt>p {
-        font-size: 1.3vh; 
-    }
+    
 
     .gplay-logo {
         width: 15%;
@@ -158,9 +147,12 @@
     }
 
     .card-footer {
-        width: 18rem;
+        max-width: 22rem;
     }
 
+    .arsenal {
+        left: 3vw;
+    }
     .tvlogos {
         display: flex;
         flex-direction: column;
@@ -210,12 +202,7 @@
         display: flex;
     }
 
-
-
-@media screen and (max-width: 450px) {
-    .salahitems {
-        display: none;
-    }
+@media (min-width: 751px) {
     .cardcontenttxt>p {
         width: 50vw;
     }
@@ -226,8 +213,24 @@
     }
 
     .mb-3, .my-3 {
-        margin-bottom: -2rem!important;
+        margin-bottom: -1rem!important;
         margin-left: -1rem;
+    }
+    }
+
+    
+@media screen and (max-width: 450px) {
+    .salahitems {
+        display: none;
+    }
+    .cardcontenttxt>p {
+        width: 50vw;
+    }
+    
+
+    .mb-3, .my-3 {
+        margin-bottom: -1rem!important;
+        margin-left: -0.5rem;
     }
 
     .lastcont {
@@ -250,4 +253,8 @@
         display: flex;
         order: 3;
         padding-top: 5vh;
+    }
+
+    .leftbox {
+        margin-left: 3vw;
     }
