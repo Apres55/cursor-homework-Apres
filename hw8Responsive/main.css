@@ -101,7 +101,7 @@ h1, h2, h3 {
 .head-btns {
     display: flex;
     flex-direction: row;
-    width: 85%;
+    width: 100%;
     justify-content: space-between;
     margin: 4.5vh 0 20.6vh 0;
 }
