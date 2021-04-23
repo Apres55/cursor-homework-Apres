@@ -322,6 +322,7 @@ input:checked + .slider:before {
 .bell {
     left: 13vw;
     bottom: 28vh;
+    display: block;
 }
 
 .screen {

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="grid-flex.css">
     <title>Document</title>
 </head>
 <body>
@@ -13,8 +14,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
-                    Bootstrap
+                    <img src="images/insta.svg" alt="instagram-logo" width="30" height="24" class="d-inline-block align-text-top">
                 </a>
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -22,19 +22,35 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#">
+                                <img src="images/home.svg" alt="nav-home-icon">
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#">
+                                <div class="tg">
+                                    <img src="images/tg/Vector.svg" alt="nav-home-icon">
+                                    <img src="images/tg/Ellipse 11.svg" alt="nav-home-icon">
+                                    <img src="images/tg/5.svg" alt="nav-home-icon">
+                                </div>
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#">
+                                <img src="images/navig.svg" alt="nav-home-icon">
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#">
+                                <img src="images/like.svg" alt="nav-home-icon">
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#">
+                                <div class="ellipse account-icon">
+                                    ell
+                                </div>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -45,13 +61,13 @@
     <div class="container page">
         <header>
             <div class="head grid">
-                <div class="avatar ellipse">
-                    <img src="" alt="">
+                <div class="avatar">
+                    <img class="ellipse" src="images/igphotos/UA8DEgjO.jpg" alt="avatar">
                 </div>
                 <div class="content-box column">
                     <div class="name-buttons row-grid">
-                        <h2></h2>
-                        <button class="btn btn-primary" type="submit">Button</button>
+                        <h2>name</h2>
+                        <button class="btn btn-primary" type="submit">Follow</button>
                         <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
@@ -63,9 +79,9 @@
                         <input class="btn btn-primary" type="button" value="Input">
                     </div>
                     <div class="followers-row row-grid">
-                        <span>87</span>
-                        <span>1182</span>
-                        <span>222</span>
+                        <span>79 posts</span>
+                        <span>379 followers</span>
+                        <span>179 following</span>
                     </div>
                     <div class="textbox">
                         <h4>Name</h4>
@@ -75,23 +91,17 @@
                 </div>
             </div>
             <div class="ellipse-bar row">
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="..." class="card-img-top" alt="...">
-                        <p>name</p>
-                    </div>
+                <div class="col ellipse-bar-item">
+                    <img src="images/igphotos/logolal.png" class="ellipse" alt="Lakerslogo">
+                    <p>name</p>
                 </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="..." class="card-img-top" alt="...">
-                        <p>name</p>
-                    </div>
+                <div class="col ellipse-bar-item">
+                    <img src="images/igphotos/s.png" class="ellipse" alt="sneakers">
+                    <p>name</p>
                 </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="..." class="card-img-top" alt="...">
-                        <p>name</p>
-                    </div>
+                <div class="col ellipse-bar-item">
+                    <img src="images/igphotos/logokob.jpg" class="ellipse" alt="KobeLogo">
+                    <p>name</p>
                 </div>
             </div>
             <hr>
@@ -99,10 +109,12 @@
         <main>
             <div class="two-btns">
                 <button class="noBord">
-                    svg
+                    <img src="images/setka.svg" alt="frsBtn-icon">
+                    <b>POSTS</b>
                 </button>
-                <button class="noBord">
-                    svg
+                <button class="noBord disabled">
+                    <img src="images/manbtn.svg" alt="scndBtn-icon">
+                    <b>TAGGED</b>
                 </button>
             </div>
             <div class="main-body row">

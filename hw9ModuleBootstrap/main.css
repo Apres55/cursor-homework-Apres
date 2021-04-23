@@ -27,3 +27,13 @@ a {
     font-weight: normal;
     font-style: normal;
     }
+
+/* head head head head head head */
+
+.ellipse {
+    border-radius: 100%;
+}
+
+.ellipse-bar-item>img {
+    width: 5rem;
+}
