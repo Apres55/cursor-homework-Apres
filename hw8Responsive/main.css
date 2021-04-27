@@ -63,7 +63,7 @@ h1, h2, h3 {
 .firstcont {
     display: flex;
     flex-direction: column;
-    padding: 4.5vh 0 0 11.32vw;
+    padding: 4.5vh 0 2vh 11.32vw;
     background: #F4F6F9;
     background-image: url(images/header/Frame.png);
     background-repeat: no-repeat;
@@ -138,6 +138,7 @@ h1, h2, h3 {
     background-image: url(images/header/Rectangle.jpg);
     background-repeat: no-repeat;
     min-height: 580px;
+    gap: 5vw;
 }
 
 .leftbox {
@@ -302,7 +303,7 @@ input:checked + .slider:before {
 .thirdcont {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    row-gap: 20vh;
+    row-gap: 15vh;
     align-items: center;
     background: #FFFFFF;
     background-image: url(images/content/ellipses.png);
@@ -310,6 +311,10 @@ input:checked + .slider:before {
     background-position-x: 3rem;
     background-size: 100%;
     background-position-y: center;
+}
+
+.thirdtxt {
+    padding-left: 10vw;
 }
 
 .mobile-salah {
