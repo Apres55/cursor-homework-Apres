@@ -3,6 +3,15 @@
     box-sizing: border-box;
 }
 
+@media screen and (max-width: 1050px) {
+    .secondcont {
+        background-size: cover;
+    }
+    .card {
+        max-width: 20rem;
+    }
+}
+
 @media screen and (max-width: 750px) {
     .secondcont {
         background-size: 60rem;
@@ -234,11 +243,19 @@
     .container-fluid {
         min-width: 400px;
     }
+
+    .text-column {
+        min-width: 349px;
+    }
+
+    .headbtn {
+        min-width: 150px;
+    }
     
     .secondcont {
         background-size: 40rem;
         background-position: top;
-        gap: 10vh;
+        gap: 12vh;
     }
 
     .thirdcont {

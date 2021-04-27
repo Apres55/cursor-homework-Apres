@@ -45,7 +45,7 @@ h1, h2, h3 {
     gap: 4vh;
     letter-spacing: 0.03em;
     padding-top: 15vh;
-    min-width: 349px;
+    min-width: 510px;
 }
 
 .text-column>p {
@@ -92,7 +92,6 @@ h1, h2, h3 {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 46%;
     height: 7.5vh;
     background: #131313;
     border-radius: 1vh;
@@ -102,8 +101,8 @@ h1, h2, h3 {
     text-align: start;
     position: block;
     padding: 1vh;
-    min-width: 10vw;
-    max-width: 240px;
+    min-width: 235px;
+    max-width: 235px;
 }
 
 .headbtn:hover {
@@ -167,8 +166,8 @@ h1, h2, h3 {
     }
 
     .card {
-        width: 22rem; 
-        height: 14rem;
+        width: 20rem; 
+        height: 15rem;
         margin-top: 2vh;
         z-index: 2;
     }
@@ -207,7 +206,7 @@ h1, h2, h3 {
         justify-content: space-between;
         align-items: center;
         z-index: 2;
-        width: 22rem;
+        width: 20rem;
     }
 
     .cardcontenttxt {
