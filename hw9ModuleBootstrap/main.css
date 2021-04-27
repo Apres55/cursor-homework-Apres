@@ -28,14 +28,7 @@ hr {
 .nav-cont {
     padding: 0;
 }
-@font-face{
-    font-family: 'Helvetica';
-    src: url(fonts/helvetica.ttf);
-    font-family: 'Avenir';
-    src: url(fonts/Avenir-Roman.ttf);
-    font-weight: normal;
-    font-style: normal;
-    }
+
 
     /* nav nav nav nav nav anv */
 
@@ -75,25 +68,29 @@ hr {
 }
 
 .tg {
-    width: 1.5rem;
+    width: 1.2rem;
     height: 1rem;
+    display: -webkit-inline-box;
+
 }
 
 .redEllipse {
     width: 1rem;
     height: 1rem;
     border-radius: 100%;
-    background: crimson;
+    background: #DC565B;
     z-index: 2;
     text-align: center;
-    font-size: x-small;
+    font-size: 55%;
     font-weight: bold;
     color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    bottom: 1.7rem;
-    left: 0.7rem;
+    right: 0.6rem;
+    bottom: 0.1rem;
 }
-
 
 /* head head head head head head */
 
