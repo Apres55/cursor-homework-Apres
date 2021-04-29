@@ -5,61 +5,86 @@
 }
 
 body {
-    background-color: tomato;
+    background-color: rgb(3, 3, 3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
 }
 
-.anima {
-    min-height: 100vh;
+.animation {
+    height: 300;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    gap: 3vh;
 }
 
-.swords {
-    min-height: 100px;
-    min-width: 100px;
-    border: none;
-    outline: none;
-    background-color: transparent;
-    cursor: pointer;
-    transition-duration: 0.3s;
-    color: #000;
+
+.glaive {
+    width: 200px;
+    height: 10px;
+    background-color:transparent;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-}
-
-.body {
-    width: 70%;
-    display: block;
-    height: 6px;
-    background-color: #000;
+    align-items: center;
 }
 
 .hand {
-    width: 20%;
-    display: block;
-    height: 6px;
-    background-color: #000;
+    background-color: rgb(218, 218, 218);
+    height: 100%;
+    width: 15%;
 }
 
-.body::after,
-.hand::after {
-    content: "";
-    display: block;
-    height: 6px;
-    background-color: #000;
-    transform: translateY(20px);
+.sword {
+    background-color: whitesmoke;
+    height: 100%;
+    width: 75%;
 }
 
-.body::before,
-.hand::before {
-    content: "";
-    display: block;
-    height: 6px;
-    background-color: #000;
-    transform: translateY(-20px);
+.element1 {
+    transition: 1s;
+}
+.element2,
+.element3 {
+    transition: all 2s;
 }
 
+.animation:hover .element1 {
+    transform: translateY(-60px);
+    opacity: 0;
+}
+
+.animation:hover .element2 {
+    transform: rotate(45deg);
+}
+
+.animation:hover .element3 {
+    transform: rotate(-45deg) translateY(-40px);
+}
+
+
+.animation:hover .sword1 {
+    background-color: rgba(170, 77, 150, 0.548);
+    box-shadow: -5px 0 20px 5px rgba(201, 59, 177, 0.671);
+    border-radius: 100%;
+    transition: 3s;
+    width: 83%;
+    height: 80%;
+}
+
+.animation:hover .sword2 {
+    background-color: rgba(0, 217, 255, 0.555);
+    box-shadow: 5px 0 20px 5px rgba(115, 226, 211, 0.692);
+    border-radius: 100%;
+    transition: 3s;
+    width: 83%;
+    height: 80%;
+}
+
+.animation:hover .hand {
+    border-radius: 2vh;
+    transition: 1s;
+}
 
