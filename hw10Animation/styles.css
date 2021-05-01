@@ -61,7 +61,7 @@ body {
 }
 
 .animation:hover .element3 {
-    transform: rotate(-45deg) translateY(-40px);
+    transform: rotate(-45deg) translateY(-50px);
 }
 
 
@@ -88,7 +88,7 @@ body {
     transition: 1s;
 }
 
-/* Newtone Newtone */
+/* Newtone Newtonedd */
 
 .newtone {
     width: 500px;
