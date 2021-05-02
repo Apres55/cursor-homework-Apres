@@ -1,0 +1,5 @@
+.mini-textBoxes {
+    display: flex;
+    flex-direction: row;
+    font-size: x-small;
+}
