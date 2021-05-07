@@ -1,3 +1,4 @@
+include includes.pug
 
 doctype html
 html(lang="en")
@@ -6,84 +7,82 @@ html(lang="en")
         meta(http-equiv="X-UA-Compatible", content="IE=edge")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         link(rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous")
-        link(rel="stylesheet" type="text/css" href="styles.css")
+        link(rel="stylesheet" type="text/css" href="pseudo.css")
         title PUG Document
     body
-    div(class="grid-col container") 
-        nav(class="navbar navbar-expand-lg navbar-light")
-                div(class="collapse navbar-collapse" id="navbarTogglerDemo03")
-                    ul(class="navbar-nav mr-auto mt-2 mt-lg-0")
-                        li(class="nav-item active")
-                            a(class="nav-link" href="#") Home 
-                            span(class="sr-only")(current)
-                        li(class="nav-item")
-                            a(class="nav-link" href="#") Link
-                        li(class="nav-item")
-                            a(class="nav-link" href="#" tabindex="-1" aria-disabled="true") Disabled
-                        button(class="btn btn-outline-success my-2 my-sm-0" type="submit") Search
-        .firstcont
+    div(class="main-col") 
+        .navbar.container
+            a(class="nav" href="#") Help
+            a(class="nav" href="#") Features
+            a(class="nav" href="#") Signup
+            a(class="nav" href="#")
+                b Landie
+            button(class="navbtn") Buy Now
+        .firstcont.container
             .col-lg-5.textplace
                 h1 Introduce Your Product Quickly & Effectively
-                p Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                p #{LoremTxt}
                 .btns 
-                    button.first-btn 
-                    button.second-btn
-        .secondcont
-            .col-lg-5.textplace
+                    button.first-btn Purchase UI Kit
+                    button.second-btn Learn More
+        .secondcont.gridrow.container
+            .col-lg-5.textplace.row
                 h3 Light, Fast & Powerful
-                p Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                p #{LoremTxt}
                 .mini-textBoxes
                     .textplace
-                        img(src="", alt="", srcset="")
+                        img(src="img/icon.svg", alt="icon")
                         h5 Title Goes Here
                         p Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
                     .textplace
-                        img(src="", alt="", srcset="")
+                        img(src="img/icon.svg", alt="icon")
                         h5 Title Goes Here
                         p Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
             .col-lg-7.pict-place
-                img(src="", alt="", srcset="")
-        .thirdcont
-            .col-lg-6.pict-place
-                img(src="", alt="", srcset="")
-            .col-lg-6.content
-                h3 Light, Fast & Powerful
-                p Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-            
-            .col-lg-6.pict-place
-                img(src="", alt="", srcset="")
-            .col-lg-6.content
-                h3 Light, Fast & Powerful
-                p Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-            
-            .col-lg-6.pict-place
-                img(src="", alt="", srcset="")
-            .col-lg-6.content
-                h3 Light, Fast & Powerful
-                p Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                button.first-btn Purchase Now
-        footer 
+                img(src="img/1.png", alt="block-picture")
+        .thirdcont.gridcol.container
+            .mini-box
+                .col-lg-6.pict-place
+                    img(src="img/box1.png", alt="block-picture")
+                .col-lg-6.content
+                    h3 Light, Fast & Powerful
+                    p #{LoremTxt}
+            .mini-box
+                .col-lg-6.pict-place
+                    img(src="img/box2.png", alt="block-picture")
+                .col-lg-6.content
+                    h3 Light, Fast & Powerful
+                    p #{LoremTxt}
+            .mini-box
+                .col-lg-6.pict-place
+                    img(src="img/box3.png", alt="block-picture")
+                .col-lg-6.content
+                    h3 Light, Fast & Powerful
+                    p #{LoremTxt}
+                    button.first-btn #{PurchaseBtn}
+        footer.container-fluid 
             .footer-content
                 h3 A Price To Suit Everyone
-                p Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                p #{FooterLoremTxt}
                 h2 $40
                 p UI Design Kit 
                 span See, One price. Simple.
-                button.first-btn Purchase Now
-            .footer-leg
-                .col-lg-4 2020
-                .col-lg-4 Landie
-                .col-lg-4 
-                    button.first-btn Purchase Now
-            .footer-end 
-                .fotter-nav
-                    a(class="nav" href="#") Help
-                    a(class="nav" href="#") Features
-                    a(class="nav" href="#") Signup
-                .social-media-links 
-                    a(href="facebook.com" class="nav-col")
-                        img(class="fb" src="images/footer/f.svg" alt="facebook-logo")
-                    a(href="twitter.com" class="nav-col")
-                        img(class="tw" src="images/footer/t.svg" alt="twitter-logo")
-                    a(href="https://www.instagram.com/" class="nav-col")
-                        img(class="ig" src="images/footer/i.svg" alt="instagram-logo")
+                button.first-btn #{PurchaseBtn}
+    .footer-end 
+        .footer-leg.container
+            .col-lg-4 2020 Yourcompany
+            .col-lg-4 Landie
+            .col-lg-4 
+                button.first-btn #{PurchaseBtn}
+        .fotter-nav.container
+            .nav
+                a(class="nav" href="#") Help
+                a(class="nav" href="#") Features
+                a(class="nav" href="#") Signup
+            .social-media-links 
+                a(href="facebook.com" class="nav-col")
+                    img(class="fb" src="images/footer/f.svg" alt="facebook-logo")
+                a(href="twitter.com" class="nav-col")
+                    img(class="tw" src="images/footer/t.svg" alt="twitter-logo")
+                a(href="https://www.instagram.com/" class="nav-col")
+                    img(class="ig" src="images/footer/i.svg" alt="instagram-logo")

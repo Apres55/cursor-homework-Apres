@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    color: #505F98;
+}
+
+body {
+    background-image: url(img/designer_1.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: right top;
+}
+
+.main-col {
+    display: grid;
+    row-gap: 25vh;
+}
+
+.flex-align-center {
+    display: flex;
+    align-items: center;
+}
+
+.btns {
+    @extend .flex-align-center;
+    width: 25vw;
+    justify-content: space-between;
+}
+
+button {
+    @extend .flex-align-center;
+    justify-content: center;
+    padding: 1px 0;
+    width: 10vw;
+    background-color: #111B47;
+    color: whitesmoke;
+    border: none;
+    border-radius: 0.3vh;
+}
+
+.gridrow {
+    @extend .flex-align-center;
+    flex-direction: row;
+    gap: 5vw;
+    .mini-textBoxes {
+        display: flex;
+        flex-direction: row;
+        font-size: x-small;
+            img {
+                width: 18%;
+            }
+    }
+}
+
+.gridcol {
+    @extend .flex-align-center;
+    flex-direction: column;
+    row-gap: 20vh;
+    .mini-box {
+        @extend .flex-align-center;
+        flex-direction: row;
+        gap: 5vw;
+    }
+}
+
+// containers containers containers
+
+.navbar {
+    padding-top: 2%;
+}
+
+.firstcont {
+    height: 100vh;
+    @extend .flex-align-center;
+}
+
+.textplace {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+footer {
+    @extend .flex-align-center;
+    justify-content: center;
+    height: 80vh;
+    background-image: url(img/Rectangle.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.footer-content {
+    @extend .flex-align-center;
+    flex-direction: column;
+    justify-content: center;
+    width: 55%;
+    text-align: center;
+    gap: 1vh;
+}
+
+.footer-end {
+    background: #E7ECFF;
+        .footer-leg, .fotter-nav {
+            @extend .flex-align-center;
+            flex-direction: row;
+        }
+        .fotter-nav {
+            border-top: solid 1px #CDD1D4;
+        }
+}
