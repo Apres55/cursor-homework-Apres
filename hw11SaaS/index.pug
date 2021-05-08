@@ -7,28 +7,34 @@ html(lang="en")
         meta(http-equiv="X-UA-Compatible", content="IE=edge")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         link(rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous")
+        link(rel="preconnect" href="https://fonts.gstatic.com")
+        link(href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet")
         link(rel="stylesheet" type="text/css" href="pseudo.css")
         title PUG Document
     body
     div(class="main-col") 
         .navbar.container
-            a(class="nav" href="#") Help
-            a(class="nav" href="#") Features
-            a(class="nav" href="#") Signup
-            a(class="nav" href="#")
-                b Landie
-            button(class="navbtn") Buy Now
+            nav
+                a(class="nav" href="#") Help
+                a(class="nav" href="#") Features
+                a(class="nav" href="#") Signup
+            a(class="nav landie1" href="#")
+                b.landie Landie
+            .btn-nav
+                button(class="navbtn") Buy Now
         .firstcont.container
             .col-lg-5.textplace
                 h1 Introduce Your Product Quickly & Effectively
                 p #{LoremTxt}
+                p #{LoremTxt2}
                 .btns 
                     button.first-btn Purchase UI Kit
-                    button.second-btn Learn More
+                    button.second-btn.btn-outline-success Learn More
         .secondcont.gridrow.container
             .col-lg-5.textplace.row
                 h3 Light, Fast & Powerful
                 p #{LoremTxt}
+                p #{LoremTxt2}
                 .mini-textBoxes
                     .textplace
                         img(src="img/icon.svg", alt="icon")
@@ -47,42 +53,50 @@ html(lang="en")
                 .col-lg-6.content
                     h3 Light, Fast & Powerful
                     p #{LoremTxt}
+                    p #{LoremTxt2}
             .mini-box
                 .col-lg-6.pict-place
                     img(src="img/box2.png", alt="block-picture")
                 .col-lg-6.content
                     h3 Light, Fast & Powerful
                     p #{LoremTxt}
+                    p #{LoremTxt2}
             .mini-box
                 .col-lg-6.pict-place
                     img(src="img/box3.png", alt="block-picture")
                 .col-lg-6.content
                     h3 Light, Fast & Powerful
                     p #{LoremTxt}
+                    p #{LoremTxt2}
                     button.first-btn #{PurchaseBtn}
         footer.container-fluid 
             .footer-content
                 h3 A Price To Suit Everyone
                 p #{FooterLoremTxt}
-                h2 $40
+                h2.price $40
                 p UI Design Kit 
-                span See, One price. Simple.
+                span.pricetxt See, One price. Simple.
                 button.first-btn #{PurchaseBtn}
     .footer-end 
         .footer-leg.container
-            .col-lg-4 2020 Yourcompany
-            .col-lg-4 Landie
-            .col-lg-4 
+            .legElement1 ©2020 Yourcompany
+            a(class="legElement" href="#")
+                b.landie Landie
+            .legElement
                 button.first-btn #{PurchaseBtn}
         .fotter-nav.container
-            .nav
+            nav
                 a(class="nav" href="#") Help
                 a(class="nav" href="#") Features
                 a(class="nav" href="#") Signup
             .social-media-links 
-                a(href="facebook.com" class="nav-col")
-                    img(class="fb" src="images/footer/f.svg" alt="facebook-logo")
-                a(href="twitter.com" class="nav-col")
-                    img(class="tw" src="images/footer/t.svg" alt="twitter-logo")
+                a(href="https://www.facebook.com/" class="nav-col")
+                    img(class="fb" src="img/Icon/Social/face.svg" alt="facebook-logo")
+                a(href="https://www.linkedin.com/" class="nav-col")
+                    img(class="linkedin" src="img/Icon/Social/Combined Shape.svg" alt="linkedin-logo")
+                a(href="https://twitter.com/" class="nav-col")
+                    img(class="tw" src="img/Icon/Social/path.svg" alt="twitter-logo")
+                a(href="https://www.youtube.com/" class="nav-col")
+                    img(class="yb" src="img/Icon/Social/yb.svg" alt="youtube-logo")
                 a(href="https://www.instagram.com/" class="nav-col")
-                    img(class="ig" src="images/footer/i.svg" alt="instagram-logo")
+                    img(class="ig" src="img/Icon/Social/inst.svg" alt="instagram-logo")
