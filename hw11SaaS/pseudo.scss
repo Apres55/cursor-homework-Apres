@@ -46,12 +46,14 @@ a {
 .main-col {
     display: grid;
     row-gap: 25vh;
+    width: 100%;
 }
 
 .flex-align-center {
     display: flex;
     align-items: center;
 }
+
 
 .btns {
     @extend .flex-align-center;
@@ -63,8 +65,10 @@ a {
 button {
     @extend .flex-align-center;
     justify-content: center;
-    padding: 0.4vh 0;
+    padding: 0.4vh 1vw;
     width: 10vw;
+    min-width: fit-content;
+    white-space: nowrap;
     background-color: #111B47;
     color: whitesmoke;
     border: none;
@@ -93,7 +97,8 @@ a:active {
     background-color: transparent;
     border: solid 2px #091133;
     color: #091133;
-    padding: 0.2vh 0;
+    padding: 0.2vh 1vw;
+    margin-left: 1vw;
 }
 
 .gridrow {
@@ -197,4 +202,64 @@ footer {
                         }
                 }
         }
+}
+
+// responsive responsive responsive responsive responsive responsive
+
+@media screen and (max-width: 991px) {
+body {
+    width: fit-content;
+    .main-col {
+        row-gap: 10vh;
+    }
+}
+
+.navitem {
+    margin-right: 3vw;
+}
+    
+.firstcont {
+    margin-bottom: 0;
+    .frstimg {
+        margin-left: 8vw;
+    }
+}
+
+.gridcol, .gridrow {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .textplace {
+        justify-content: center;
+        align-items: center;
+    }
+    .mini-box {
+        flex-direction: column;
+        .content{
+            justify-content: center;
+            align-items: center;
+        }
+        .pict-place {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+.gridrow {
+    flex-direction: column-reverse;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-size: auto;
+        background-position: unset;
+        .footer-leg, .fotter-nav {
+            width: 85%;
+        }
+    }
+
 }

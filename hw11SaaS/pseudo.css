@@ -46,6 +46,7 @@ a {
 .main-col {
   display: grid;
   row-gap: 25vh;
+  width: 100%;
 }
 
 .flex-align-center, .footer-end .fotter-nav .social-media-links, .footer-end .footer-leg, .footer-end .fotter-nav, .footer-content, footer, .firstcont, nav, .gridcol .mini-box, .gridcol, .gridrow, button, .btns {
@@ -61,8 +62,10 @@ a {
 
 button {
   justify-content: center;
-  padding: 0.4vh 0;
+  padding: 0.4vh 1vw;
   width: 10vw;
+  min-width: fit-content;
+  white-space: nowrap;
   background-color: #111B47;
   color: whitesmoke;
   border: none;
@@ -93,7 +96,8 @@ a:active {
   background-color: transparent;
   border: solid 2px #091133;
   color: #091133;
-  padding: 0.2vh 0;
+  padding: 0.2vh 1vw;
+  margin-left: 1vw;
 }
 
 .gridrow {
@@ -184,4 +188,59 @@ footer {
 }
 .footer-end .fotter-nav .social-media-links img:hover {
   width: 1vw;
+}
+
+@media screen and (max-width: 991px) {
+  body {
+    width: fit-content;
+  }
+  body .main-col {
+    row-gap: 10vh;
+  }
+
+  .navitem {
+    margin-right: 3vw;
+  }
+
+  .firstcont {
+    margin-bottom: 0;
+  }
+  .firstcont .frstimg {
+    margin-left: 8vw;
+  }
+
+  .gridcol, .gridrow {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .gridcol .textplace, .gridrow .textplace {
+    justify-content: center;
+    align-items: center;
+  }
+  .gridcol .mini-box, .gridrow .mini-box {
+    flex-direction: column;
+  }
+  .gridcol .mini-box .content, .gridrow .mini-box .content {
+    justify-content: center;
+    align-items: center;
+  }
+  .gridcol .mini-box .pict-place, .gridrow .mini-box .pict-place {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .gridrow {
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 600px) {
+  body {
+    background-size: auto;
+    background-position: unset;
+  }
+  body .footer-leg, body .fotter-nav {
+    width: 85%;
+  }
 }
